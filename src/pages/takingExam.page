@@ -1,0 +1,19 @@
+<apex:page showHeader="true" standardStylesheets="false" >
+	<apex:includeScript value="/lightning/lightning.out.js" />
+    <div id="lightning" />
+    <script>
+    	$Lightning.use("c:TakingExamApp", function() {
+        	$Lightning.createComponent("c:TakingExam",
+        		"{}",
+	        'lightning',
+	        function(cmp) {
+	          // do some stuff
+	        });
+      	});
+    </script>
+    <style type="text/css">
+      body {
+        margin: 0;
+      }
+    </style>
+</apex:page>

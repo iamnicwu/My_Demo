@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable" access="global">
+	<ltng:require styles="/resource/animate" />
+    
+    <div class="slds">        
+        <h1>hello</h1>
+        
+    </div>
+</aura:component>

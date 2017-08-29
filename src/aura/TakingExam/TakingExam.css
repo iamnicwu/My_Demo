@@ -1,0 +1,40 @@
+.THIS input.search {
+  background-image: url("/resource/slds100/assets/icons/utility/search_60.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 99% 5px;
+}
+
+.THIS input.input-loading {
+  background-image: url("/resource/slds100/assets/images/spinners/slds_spinner_brand.gif");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 99% 5px;
+}
+
+.THIS .user-input-results, .THIS .account-input-results  {
+  position: absolute;
+  /* LDS Styling */
+  /* top: 60px; */
+  background-color: white;
+  border: 1px solid #d8dde6;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  z-index: 2;  
+}
+
+.THIS .user-input-results .no-result, .THIS .account-input-results .no-result {
+  cursor: not-allowed;
+  padding: 10px 1rem 10px 0.75rem;
+  color: red;
+}
+
+.THIS .user-input-results .result,.THIS .account-input-results .result {
+  cursor: pointer;
+  padding: 10px 1rem 10px 0.75rem;
+}
+
+.THIS .user-input-results .result:hover,  .THIS .account-input-results .result:hover{
+  background-color: #0070d2;
+  color: white;
+}
